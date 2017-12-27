@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/scrollView1">
+  <LinearLayout
+      p1:orientation="vertical"
+      p1:layout_width="match_parent"
+      p1:layout_height="match_parent"
+      p1:minWidth="25px"
+      p1:minHeight="25px"
+      p1:id="@+id/linearLayout2">
+    <TextView
+        p1:text="@string/labelInput"
+        p1:id="@+id/labelInput"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content" />
+    <AutoCompleteTextView
+        p1:id="@+id/autoCompleteTextView1"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:inputType="textNoSuggestions"
+        p1:hint="@string/labelInputPlaceholder" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout1">
+      <TextView
+          p1:text="@string/labelSpecialCharToggle"
+          p1:id="@+id/labelSpecialChar"
+          p1:layout_width="wrap_content"
+          p1:layout_height="match_parent" />
+      <Switch
+          p1:id="@+id/switch1"
+          p1:layout_width="wrap_content"
+          p1:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        p1:text="@string/labelSpecialChar"
+        p1:id="@+id/labelSpecialCharInput"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:visibility="gone" />
+    <EditText
+        p1:id="@+id/editTextSpecialChar"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:visibility="gone"
+        p1:inputType="textNoSuggestions"
+        p1:text="!" />
+    <TextView
+        p1:text="@string/labelMaxLength"
+        p1:id="@+id/labelMaxLength"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:visibility="gone" />
+    <EditText
+        p1:id="@+id/editTextMaxLength"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:visibility="gone"
+        p1:inputType="number"
+        p1:digits="0123456789"
+        p1:text="" />
+    <TextView
+        p1:text="@string/labelMasterPassword"
+        p1:id="@+id/labelHashCheck"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content" />
+    <EditText
+        p1:inputType="textPassword"
+        p1:id="@+id/editTextMasterPassword"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content" />
+    <TextView
+        p1:text="@string/labelCheck"
+        p1:id="@+id/labelPassword"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content" />
+    <TextView
+        p1:text="@string/labelCheckEmpty"
+        p1:id="@+id/textViewHashCheck"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:gravity="center_horizontal" />
+    <Button
+        p1:text="@string/buttonGenerate"
+        p1:id="@+id/buttonGeneratePassword"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/progressBar1" />
+    <TextView
+        p1:text="@string/labelPasswordResult"
+        p1:id="@+id/labelResult"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content" />
+    <TextView
+        p1:id="@+id/textViewPasswordResult"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:fontFamily="serif"
+        p1:gravity="center_horizontal" />
+    <Button
+        p1:text="@string/buttonCopy"
+        p1:id="@+id/buttonCopyResult"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:enabled="false" />
+  </LinearLayout>
+</ScrollView>

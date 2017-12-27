@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="labelInput">Input (case insensitive):</string>
+  <string name="labelInputPlaceholder">example.com</string>
+  <string name="labelSpecialCharToggle">Advanced Settings   </string>
+  <string name="labelSpecialChar">Special characters:</string>
+  <string name="labelMaxLength">Maximum length:</string>
+  <string name="labelMasterPassword">Master password:</string>
+  <string name="labelCheck">Typo check code:</string>
+  <string name="labelPasswordResult">Generated password:</string>
+  <string name="buttonGenerate">Generate</string>
+  <string name="buttonCopy">Copy to clipboard</string>
+  <string name="labelCheckEmpty">- no password yet -</string>
+  <string name="app_name">Passwords 101</string>
+</resources>
